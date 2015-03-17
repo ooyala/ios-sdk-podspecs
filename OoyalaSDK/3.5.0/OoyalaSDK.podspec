@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "Commercial", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "Commercial", :file => "LICENSE.md" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Zhihui Chen" => "zchen@ooyala.com" }
+  s.author             = { "Ooyala Playback Mobile" => "playback-app@ooyala.com" }
   # Or just: s.author    = "Zhihui Chen"
   # s.authors            = { "Zhihui Chen" => "zchen@ooyala.com" }
   # s.social_media_url   = "http://twitter.com/Zhihui Chen"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ooyala/ios-sample-apps", :tag => "v3.5.0_RC1" }
+  s.source       = { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v3.5.0_RC1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = "vendor/Ooyala/OoyalaSDK-iOS/Headers/*.h"
 
+  s.vendored_library = "vendor/Ooyala/OoyalaSDK-iOS/libOoyalaSDK.a"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
