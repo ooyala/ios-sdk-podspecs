@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/OoyalaSDK"
+  s.homepage     = "http://support.ooyala.com/developers/documentation/concepts/chapter_sdk_ios.html"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v3.5.0_RC1" }
+  s.source       = { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v3.5.0_GA" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
