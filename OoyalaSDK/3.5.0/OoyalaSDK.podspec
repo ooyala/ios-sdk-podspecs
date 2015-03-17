@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "vendor/Ooyala/OoyalaSDK-iOS"
+  s.source_files  = "vendor/Ooyala/OoyalaSDK-iOS/Headers/*.h"
 
   s.public_header_files = "vendor/Ooyala/OoyalaSDK-iOS/Headers/*.h"
 
@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "CoreMedia", "QuartzCore"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
