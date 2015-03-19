@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   s.frameworks = "CoreMedia", "QuartzCore", "AVFoundation", "MediaPlayer", "MediaAccessibility", "SystemConfiguration"
 
   # s.library   = "iconv"
-  s.libraries = "z", "xml2"
+  s.libraries = "z", "xml2", "c++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
