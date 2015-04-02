@@ -115,7 +115,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.frameworks = "CoreMedia", "QuartzCore", "AVFoundation", "MediaPlayer", "MediaAccessibility", "SystemConfiguration"
+  s.frameworks = "AdSupport"
 
   # s.library   = "iconv"
   s.libraries = "z", "xml2", "c++"
