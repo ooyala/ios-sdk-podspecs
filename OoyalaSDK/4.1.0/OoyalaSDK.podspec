@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name	= "OoyalaSDK"
-s.version	= "v4.1.0"
+s.version	= "4.1.0"
 s.summary	= "OoyalaSDK"
 s.homepage	= "http://support.ooyala.com/developers/documentation/concepts/chapter_sdk_ios.html"
 
