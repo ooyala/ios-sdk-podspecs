@@ -12,7 +12,7 @@ s.author	= { "Ooyala Playback Mobile" => "playback-app@ooyala.com" }
 s.ios.deployment_target	= "7.0"
 s.tvos.deployment_target	= "9.0"
 
-s.source	= { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v4.17.0"}
+s.source	= { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v4.17.0_GA"}
 
 s.ios.vendored_frameworks	= "vendor/Ooyala/OoyalaSDK-iOS/OoyalaSDK.framework"
 s.tvos.vendored_frameworks	= "vendor/Ooyala/OoyalaSDK-tvOS/OoyalaTVSDK.framework"
