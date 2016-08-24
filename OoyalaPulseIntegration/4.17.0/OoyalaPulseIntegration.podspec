@@ -11,7 +11,7 @@ s.author	= { "Ooyala Playback Mobile" => "playback-app@ooyala.com" }
 
 s.platform	= :ios, "7.0"
 
-s.source	= { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v4.17.0"}
+s.source	= { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v4.17.0_GA"}
 
 s.vendored_frameworks	= "vendor/Ooyala/OoyalaPulseIntegration-iOS/OoyalaPulseIntegration.framework"
 
