@@ -15,7 +15,6 @@ s.source	= { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v
 
 s.vendored_frameworks	= "vendor/Ooyala/OoyalaCastSDK-iOS/OoyalaCastSDK.framework"
 
-s.frameworks	= ""
 s.libraries	= "z", "xml2", "c++"
 
 s.dependency "OoyalaSDK", "~> 4.21.0"
