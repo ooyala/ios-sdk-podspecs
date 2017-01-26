@@ -15,7 +15,7 @@ s.tvos.deployment_target	= "9.0"
 s.source	= { :git => "https://github.com/ooyala/ios-sample-apps.git", :tag => "v4.22.0_GA"}
 
 s.ios.vendored_frameworks	= "vendor/Ooyala/OoyalaSDK-iOS/OoyalaSDK.framework"
-s.tvos.vendored_frameworks	= "vendor/Ooyala/OoyalaSDK-tvOS/OoyalaTVSDK.framework"
+s.tvos.vendored_frameworks	= "vendor/Ooyala/OoyalaSDK-tvOS/OoyalaSDK.framework"
 
 s.frameworks	= "CoreMedia", "QuartzCore", "AVFoundation", "MediaPlayer", "MediaAccessibility", "SystemConfiguration","AVKit","JavaScriptCore"
 s.libraries	= "z", "xml2", "c++"
